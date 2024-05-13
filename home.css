@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Header*/
+nav{
+    width: 100%;
+    height: 10%;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: rgb(101, 67, 53);
+    box-shadow: 0 0 10px 0 beige inset;
+}
+.header ul{
+    list-style-type: none;
+    float: right;
+    margin-top: -6.5%;
+}
+
+
+
+.header ul li a{
+    color:black;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    font-weight: 500;
+    display: block;
+    font-size: 20px;
+}
+
+.header li{
+    display: inline-block;
+   
+   
+}
+
+.header li a:hover{
+color: beige;
+transform: scale(1.3);
+}
+
+/*Header*/
+
+/*coffee beans*/
+ h1{
+    padding-top: 7px;
+}
+
+.order img{
+    width: 100%;
+    height: 600px;
+   padding-top: 70px;
+}
+
+/*Welcome*/
+.order h2{
+    margin-top: -25%;
+    margin-left: 100px;
+    font-size: 70px;
+    color: rgb(48, 1, 1);
+}
+
+/*Tagline*/
+.order p{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+}
+
+/*Order Now*/
+.order button{
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    margin-left: 120px;
+    border: 2px solid black;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: rgb(35, 2, 2);
+    color: beige;
+}
+/*Our special coffee & snacks*/
+#text{
+    margin-top: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(48, 1, 1);
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: -100px;
+    
+}
+
+/*Food items*/
+.items{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    background-color: rgb(248, 248, 135);
+}
+
+.items img{
+    width: 210px;
+    height: 200px;   
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.items p{
+    font-size: 25px;
+    text-align: center;
+   margin-top: 10px;
+   font-family: 'Playball', cursive;
+   
+}
+
+#price{
+    margin-top: 34px;
+    margin-left: -150px;
+    font-weight: bold;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.items button{
+    background-color: rgb(32, 1, 1);
+    color: white;
+    font-size: 25px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: -30px;
+    margin-right: 10px;
+    float: right;
+}
+
+/* About Us Image */
+.about .image{
+    float: right;
+    margin-top: -30px;
+    
+}
+
+/*About Us Paragraph*/
+
+.about .text h6{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(48, 1, 1);
+    
+}
+
+.about .text p{
+    font-size: 20px;
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+}
+
+/*Subscribe Section*/
+
+.subscribe img{
+    width: 100%;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.subscribe p{
+    margin-top: -15%;
+    font-size: 30px;
+    font-weight: bold;
+   text-align: center;
+}
+
+.subscribe table{
+    margin-left: 39%;
+    margin-top: 10px;
+}
+
+.subscribe input{
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.subscribe button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(48, 2, 2);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(62, 21, 4);
+    box-shadow: 0 0 10px 0 beige inset;
+    margin-top: -70px;
+    
+}
+
+/*services*/
+.footer p{
+    padding-top: 16%;
+    font-size: 25px;
+    color: rgb(227, 227, 128);
+    padding-left: 10%;
+}
+
+/*services list*/
+.footer ul{
+    list-style-type: none;
+}
+
+.footer ul li{
+    font-size: 18px;
+    color: rgb(227, 227, 128);
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+/*address*/
+
+#address{
+    margin-top: -24%;
+    margin-left: 20%;
+    font-size: 25px;
+    color: rgb(227, 227, 128);
+}
+
+.contact p{
+    margin-top: -16%;
+    margin-left: 20%;
+    font-size: 18px;
+    color: rgb(227, 227, 128);
+}
+
+/*contact*/
+
+#phone{
+    margin-top: -14%;
+    margin-left: 20%;
+    font-size: 25px;
+    color: rgb(227, 227, 128);
+}
+
+.contact p{
+    margin-top: -16%;
+    margin-left: 20%;
+    font-size: 18px;
+    
+}
+
+.socialmedia p{
+    font-size: 25px;
+    margin-top: -23%;
+    margin-left: 40%;
+}
+
+.socialmedia ul{
+list-style-type: none;
+margin-top: 2%;
+}
+
+.socialmedia li{
+    margin-top: -100px;
+    display: inline-block;
+   margin-right: -45%;
+   margin-left: 40%;
+    align-items: first baseline;
+}
+.socialmedia i{
+    size: 40%;
+    
+}
+
+
